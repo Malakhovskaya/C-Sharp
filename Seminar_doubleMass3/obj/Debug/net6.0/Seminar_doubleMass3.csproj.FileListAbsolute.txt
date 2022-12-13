@@ -1,0 +1,15 @@
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\Seminar_doubleMass3\bin\Debug\net6.0\Seminar_doubleMass3.exe
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\Seminar_doubleMass3\bin\Debug\net6.0\Seminar_doubleMass3.deps.json
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\Seminar_doubleMass3\bin\Debug\net6.0\Seminar_doubleMass3.runtimeconfig.json
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\Seminar_doubleMass3\bin\Debug\net6.0\Seminar_doubleMass3.dll
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\Seminar_doubleMass3\bin\Debug\net6.0\Seminar_doubleMass3.pdb
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\Seminar_doubleMass3\obj\Debug\net6.0\Seminar_doubleMass3.csproj.AssemblyReference.cache
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\Seminar_doubleMass3\obj\Debug\net6.0\Seminar_doubleMass3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\Seminar_doubleMass3\obj\Debug\net6.0\Seminar_doubleMass3.AssemblyInfoInputs.cache
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\Seminar_doubleMass3\obj\Debug\net6.0\Seminar_doubleMass3.AssemblyInfo.cs
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\Seminar_doubleMass3\obj\Debug\net6.0\Seminar_doubleMass3.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\Seminar_doubleMass3\obj\Debug\net6.0\Seminar_doubleMass3.dll
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\Seminar_doubleMass3\obj\Debug\net6.0\refint\Seminar_doubleMass3.dll
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\Seminar_doubleMass3\obj\Debug\net6.0\Seminar_doubleMass3.pdb
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\Seminar_doubleMass3\obj\Debug\net6.0\Seminar_doubleMass3.genruntimeconfig.cache
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\Seminar_doubleMass3\obj\Debug\net6.0\ref\Seminar_doubleMass3.dll
