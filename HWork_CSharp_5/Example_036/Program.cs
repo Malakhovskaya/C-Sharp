@@ -5,7 +5,7 @@
 
 int[] startArray = GetArray(6, 0, 10);//ввели одномерный массив StartArray через функцию(метод GetArray)
 Console.WriteLine(String.Join(" ", startArray)); //выводим на консоль через пробел
-Console.WriteLine($"Сумма элементов на нечетных позициях равна = {GetEvenCount(startArray)}"); //выводим сумму элементов на нечетных позициях
+Console.WriteLine($"Сумма элементов на нечетных позициях равна = {GetSumOddElements(startArray)}"); //выводим сумму элементов на нечетных позициях
 
 int[] GetArray(int size, int minValue, int maxValue) //метод зеполнения массива рандомными числами (размер, мин и макс числа)
 {
@@ -17,7 +17,7 @@ int[] GetArray(int size, int minValue, int maxValue) //метод зеполне
     }
     return res;
 }
-int GetEvenCount(int[] array) //ввели метод, вычисляющий сумму чисел на нечетных индексах в массиве
+int GetSumOddElements(int[] array) //ввели метод, вычисляющий сумму чисел на нечетных индексах в массиве
 {
     int sum = 0;
     
