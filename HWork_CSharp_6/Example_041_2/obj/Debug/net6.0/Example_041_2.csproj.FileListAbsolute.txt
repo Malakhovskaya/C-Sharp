@@ -1,0 +1,15 @@
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_6\Example_041_2\obj\Debug\net6.0\Example_041_2.csproj.AssemblyReference.cache
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_6\Example_041_2\obj\Debug\net6.0\Example_041_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_6\Example_041_2\obj\Debug\net6.0\Example_041_2.AssemblyInfoInputs.cache
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_6\Example_041_2\obj\Debug\net6.0\Example_041_2.AssemblyInfo.cs
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_6\Example_041_2\obj\Debug\net6.0\Example_041_2.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_6\Example_041_2\bin\Debug\net6.0\Example_041_2.exe
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_6\Example_041_2\bin\Debug\net6.0\Example_041_2.deps.json
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_6\Example_041_2\bin\Debug\net6.0\Example_041_2.runtimeconfig.json
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_6\Example_041_2\bin\Debug\net6.0\Example_041_2.dll
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_6\Example_041_2\bin\Debug\net6.0\Example_041_2.pdb
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_6\Example_041_2\obj\Debug\net6.0\Example_041_2.dll
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_6\Example_041_2\obj\Debug\net6.0\refint\Example_041_2.dll
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_6\Example_041_2\obj\Debug\net6.0\Example_041_2.pdb
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_6\Example_041_2\obj\Debug\net6.0\Example_041_2.genruntimeconfig.cache
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_6\Example_041_2\obj\Debug\net6.0\ref\Example_041_2.dll

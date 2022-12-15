@@ -2,31 +2,21 @@
 0, 7, 8, -2, -2 -> 2
 1, -7, 567, 89, 223-> 3*/
 
-Console.Write("Введите любые числа: ");
-int M = int.Parse(Console.ReadLine());
-string[] M = text.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+Console.Write("Введите через проблел без запятых любые числа: ");
+string str = Console.ReadLine();
 
-int[] array = GetArray(5, 1, 99);  // вводим одномерный масив
-Console.WriteLine(String.Join(" ", array)); // слепливанием и вывод массива на консоль
+var arrStr = str.Split(" ");
 
+int[] arr = Array.ConvertAll(arrStr, int.Parse);
 
-int [] GetArray(int size, int minValue, int maxValue) // вводим метод заполнения массива рандомными числами
-{
-   int [] array = new int[size];
-    for (int i = 0; i < size; i++)
-    {
-        array[i] = new Random().Next(minValue, maxValue);
-    }
-    return array;
-}
 
 int sum = 0;
 
-    for (int i = 0; i < array.Length; i++)
+    for (int i = 0; i < arr.Length; i++)
     {
-        if (array[i] > 0) sum += 1;
+        if (arr[i] > 0) sum += 1;
     }
 
 
-Console.WriteLine($"Пользователь ввёл {sum} положительных чисел");
+Console.WriteLine($"Пользователь ввёл {sum} элемент(-а/-ов) больше 0(нуля)");
 
