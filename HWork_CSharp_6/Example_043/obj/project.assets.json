@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Александр\\Documents\\Лена работа\\Учеба\\ДЗ\\ДЗ_CSharp\\HWork_CSharp_6\\Example_041\\Example_041.csproj",
-      "projectName": "Example_041",
-      "projectPath": "C:\\Users\\Александр\\Documents\\Лена работа\\Учеба\\ДЗ\\ДЗ_CSharp\\HWork_CSharp_6\\Example_041\\Example_041.csproj",
+      "projectUniqueName": "C:\\Users\\Александр\\Documents\\Лена работа\\Учеба\\ДЗ\\ДЗ_CSharp\\HWork_CSharp_6\\Example_043\\Example_043.csproj",
+      "projectName": "Example_043",
+      "projectPath": "C:\\Users\\Александр\\Documents\\Лена работа\\Учеба\\ДЗ\\ДЗ_CSharp\\HWork_CSharp_6\\Example_043\\Example_043.csproj",
       "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Александр\\Documents\\Лена работа\\Учеба\\ДЗ\\ДЗ_CSharp\\HWork_CSharp_6\\Example_041\\obj\\",
+      "outputPath": "C:\\Users\\Александр\\Documents\\Лена работа\\Учеба\\ДЗ\\ДЗ_CSharp\\HWork_CSharp_6\\Example_043\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Александр\\AppData\\Roaming\\NuGet\\NuGet.Config"

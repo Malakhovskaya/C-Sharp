@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Александр\\Documents\\Лена работа\\Учеба\\ДЗ\\ДЗ_CSharp\\HWork_CSharp_6\\Example_041\\Example_041_2.csproj": {}
+    "C:\\Users\\Александр\\Documents\\Лена работа\\Учеба\\ДЗ\\ДЗ_CSharp\\HWork_CSharp_6\\Example_041\\Example_041.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Александр\\Documents\\Лена работа\\Учеба\\ДЗ\\ДЗ_CSharp\\HWork_CSharp_6\\Example_041\\Example_041_2.csproj": {
+    "C:\\Users\\Александр\\Documents\\Лена работа\\Учеба\\ДЗ\\ДЗ_CSharp\\HWork_CSharp_6\\Example_041\\Example_041.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Александр\\Documents\\Лена работа\\Учеба\\ДЗ\\ДЗ_CSharp\\HWork_CSharp_6\\Example_041\\Example_041_2.csproj",
-        "projectName": "Example_041_2",
-        "projectPath": "C:\\Users\\Александр\\Documents\\Лена работа\\Учеба\\ДЗ\\ДЗ_CSharp\\HWork_CSharp_6\\Example_041\\Example_041_2.csproj",
+        "projectUniqueName": "C:\\Users\\Александр\\Documents\\Лена работа\\Учеба\\ДЗ\\ДЗ_CSharp\\HWork_CSharp_6\\Example_041\\Example_041.csproj",
+        "projectName": "Example_041",
+        "projectPath": "C:\\Users\\Александр\\Documents\\Лена работа\\Учеба\\ДЗ\\ДЗ_CSharp\\HWork_CSharp_6\\Example_041\\Example_041.csproj",
         "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Александр\\Documents\\Лена работа\\Учеба\\ДЗ\\ДЗ_CSharp\\HWork_CSharp_6\\Example_041\\obj\\",
         "projectStyle": "PackageReference",
