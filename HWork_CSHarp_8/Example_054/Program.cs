@@ -44,8 +44,9 @@ void PrintArray(int[,] inArray) //метод вывода в терминал п
     }
 }
 
-void SortArray(int[,] array)
+int[] SortArray(int[,] array)
 {
+    int[] result = new int[array.GetLength(0)];
     for (int i = 0; i < array.Length; i++)
     {
         for (int j = i+1; j < array.Length; j++)
@@ -59,6 +60,7 @@ void SortArray(int[,] array)
             }   
         }
     }
+    return result;
 }
 
 Console.WriteLine();
