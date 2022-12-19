@@ -1,0 +1,5 @@
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_9\Example_064\obj\Debug\net6.0\Example_064.csproj.AssemblyReference.cache
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_9\Example_064\obj\Debug\net6.0\Example_064.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_9\Example_064\obj\Debug\net6.0\Example_064.AssemblyInfoInputs.cache
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_9\Example_064\obj\Debug\net6.0\Example_064.AssemblyInfo.cs
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_9\Example_064\obj\Debug\net6.0\Example_064.csproj.CoreCompileInputs.cache

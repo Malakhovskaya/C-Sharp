@@ -9,6 +9,7 @@
 9 5 3 2
 8 4 4 2 */
 
+
 Console.Write("Введите количество строк массива от 1: ");
 int rows=int.Parse(Console.ReadLine());  
 
@@ -16,7 +17,10 @@ Console.Write("Введите количество столбцов массив
 int columns=int.Parse(Console.ReadLine());
 
 int[,] array = GetArray(rows, columns, 0, 10); 
+
 PrintArray(array); // выводим заполненный массив в терминале
+
+
 
 int[,] GetArray(int m, int n, int min, int max) //метод заполнения массива рандомными числами
 {
@@ -44,12 +48,12 @@ void PrintArray(int[,] inArray) //метод вывода в терминал п
     }
 }
 
-int[] SortArray(int[,] array)
+/* int[,] SortArray(int[,] array)
 {
-    int[] result = new int[array.GetLength(0)];
-    for (int i = 0; i < array.Length; i++)
+    int[,] result = new int[rows, columns];
+    for (int i = 0; i < array.GetLength(0); i++)
     {
-        for (int j = i+1; j < array.Length; j++)
+        for (int j = 0; j < array.GetLength(1); j++)
         {
             if(array[i,j]<array[i,j+1])
             {
@@ -61,11 +65,35 @@ int[] SortArray(int[,] array)
         }
     }
     return result;
+} */
+
+int[,] SortArray(int[,] array) // метод сортирует в каждой строке по убыванию
+{
+for (int i = 0; i < array.GetLength(0); i++)
+{
+    for(int j = 0; j < array.GetLength(1)-1; j++)
+    {
+        for(int k = 0; k <  array.GetLength(1)-1; k++)
+        {
+            if (array[i,k] < array[i,k+1])
+            { 
+                int number = 0;
+            number = array[i,k];
+            array[i,k] = array[i,k+1];
+            array[i,k+1] = number;
+            }
+        }
+    }
+}
+return array;
 }
 
 Console.WriteLine();
 Console.WriteLine("Отсортированный массив со значениями в строках от большего к меньшему");
-PrintSortArray(array);
+
+int[,] Newarray = SortArray(array); 
+PrintSortArray(Newarray);
+
 
 
 void PrintSortArray(int[,] newArray)
