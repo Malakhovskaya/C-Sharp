@@ -6,63 +6,69 @@
 18 20
 15 18 */
 
-int InputInt(string output) // вводим массив с переменной output, которая будет возвращать значение
-{
-    Console.Write(output);
-    return int.Parse(Console.ReadLine());
-}
+int rows = InputNumbers("Введите число строк 1-й матрицы: ");
+int columns = InputNumbers("Введите число столбцов 1-й матрицы (и строк 2-й): ");
+int doubleColumns = InputNumbers("Введите число столбцов 2-й матрицы: ");
+int Random = InputNumbers("Введите диапазон случайных чисел, заполняющих матрицы: от 1 до ");
 
-void FillArrayRandomNumbers(int[,] array)
+int[,] firstMartrix = new int[rows, columns];
+CreateArray(firstMartrix);
+Console.WriteLine($"Первая матрица:");
+WriteArray(firstMartrix);
+
+int[,] secomdMartrix = new int[columns, doubleColumns];
+CreateArray(secomdMartrix);
+Console.WriteLine($"Вторая матрица:");
+WriteArray(secomdMartrix);
+
+int[,] resultMatrix = new int[rows, doubleColumns];
+
+MultiplyMatrix(firstMartrix, secomdMartrix, resultMatrix);
+Console.WriteLine($"Произведение первой и второй матриц:");
+WriteArray(resultMatrix);
+
+void MultiplyMatrix(int[,] firstMartrix, int[,] secomdMartrix, int[,] resultMatrix)
 {
-    for (int i = 0; i < array.GetLength(0); i++)
+  for (int i = 0; i < resultMatrix.GetLength(0); i++)
+  {
+    for (int j = 0; j < resultMatrix.GetLength(1); j++)
     {
-        for (int j = 0; j < array.GetLength(1); j++)
-        {
-            array[i, j] = new Random().Next(1, 5); //Для увеличения размера чисел в матрицах поменять число 5 на большее
-        }
+      int sum = 0;
+      for (int k = 0; k < firstMartrix.GetLength(1); k++)
+      {
+        sum += firstMartrix[i,k] * secomdMartrix[k,j];
+      }
+      resultMatrix[i,j] = sum;
     }
+  }
 }
 
-void PrintArray(int[,] array)
+int InputNumbers(string input)
 {
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        Console.Write("[ ");
-        for (int j = 0; j < array.GetLength(1); j++)
-        {
-            Console.Write(array[i, j] + " ");
-        }
-        Console.Write("]");
-        Console.WriteLine("");
-    }
+  Console.Write(input);
+  int output = Convert.ToInt32(Console.ReadLine());
+  return output;
 }
 
-int size = InputInt("размерность матриц: ");
-int[,] matrixA = new int[size, size];
-int[,] matrixB = new int[size, size];
-FillArrayRandomNumbers(matrixA);
-FillArrayRandomNumbers(matrixB);
-
-int[,] matrixC = new int[size, size];
-
-for (int i = 0; i < size; i++)
+void CreateArray(int[,] array)
 {
-    for (int j = 0; j < size; j++)
+  for (int i = 0; i < array.GetLength(0); i++)
+  {
+    for (int j = 0; j < array.GetLength(1); j++)
     {
-        for (int k = 0; k < size; k++)
-        {
-            matrixC[i, j] = matrixC[i, j] + (matrixA[i, k] * matrixB[k, j]);
-        }
+      array[i, j] = new Random().Next(Random);
     }
+  }
 }
 
-Console.WriteLine("Матрица - А");
-PrintArray(matrixA);
-Console.WriteLine();
-
-Console.WriteLine("Матрица - В");
-PrintArray(matrixB);
-Console.WriteLine();
-
-Console.WriteLine("Произведение матриц А*В");
-PrintArray(matrixC);
+void WriteArray (int[,] array)
+{
+  for (int i = 0; i < array.GetLength(0); i++)
+  {
+    for (int j = 0; j < array.GetLength(1); j++)
+    {
+      Console.Write(array[i,j] + " ");
+    }
+    Console.WriteLine();
+  }
+}
