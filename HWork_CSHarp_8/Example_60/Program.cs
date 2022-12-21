@@ -5,63 +5,36 @@
 27(0,0,1) 90(0,1,1)
 26(1,0,1) 55(1,1,1)*/
 
-Console.Write("Введите количество строк массива: ");
-int rows=int.Parse(Console.ReadLine());
 
-Console.Write("Введите количество столбцов массива: ");
-int columns=int.Parse(Console.ReadLine());
+int[,,] Array = new int[2, 2, 2];
+GetArray(Array);
+PrintArray(Array);
 
-Console.Write("Введите ширину массива: ");
-int number=int.Parse(Console.ReadLine()); 
-
-int[,,] array = GetArray(rows, columns,number); //вводим метод рандомного заполнения массива 
-//PrintArray(array); 
-PrintIndex(array);
-
-int[,,] GetArray(int rows, int columns, int number, int minValue=0, int maxValue=100)
+void GetArray(int[,,] arr) 
 {
-    int[,,] result = new int[rows,columns,number];
-
-    for (int i = 0; i < rows; i++)
+    int count = 10; //т.к по условию двузначные числа
+    for (int i = 0; i < arr.GetLength(0); i++)
     {
-        for (int j = 0; j < columns; j++)
+        for (int j = 0; j < arr.GetLength(1); j++)
         {
-            for (int k = 0; k < columns; k++)
+            for (int k = 0; k < arr.GetLength(2); k++)
             {
-                 result[i, j, k] = new Random().Next(minValue, maxValue + 1);
+                arr[k, i, j] += count;
+                count += 3;
             }
         }
     }
-    return result;
 }
-/*
-void PrintArray (int[,,] array)
+void PrintArray(int[,,] arr)
 {
-  for (int i = 0; i < array.GetLength(0); i++)
-  {
-    for (int j = 0; j < array.GetLength(1); j++)
+    for (int i = 0; i < Array.GetLength(0); i++)
     {
-          for (int k = 0; k < array.GetLength(1); k++)
-          {
-            Console.Write(array[i,j,k] );
-          }
-    Console.WriteLine();
-    }
-  }
-}
-*/
-
-// Функция вывода индекса элементов 3D массива
-void PrintIndex(int[,,] arr)
-{
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        for (int j = 0; j < array.GetLength(1); j++)
+        for (int j = 0; j < Array.GetLength(1); j++)
         {
             Console.WriteLine();
-            for (int k = 0; k < array.GetLength(2); k++)
+            for (int k = 0; k < Array.GetLength(2); k++)
             {
-                Console.Write($"{array[i, j, k]}({i},{j},{k}) ");
+                Console.Write($"{Array[i, j, k]}({i},{j},{k}) ");
             }
         }
     }
