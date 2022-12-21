@@ -12,7 +12,7 @@ PrintArray(Array);
 
 void GetArray(int[,,] arr) 
 {
-    int count = 10; //т.к по условию двузначные числа
+    int count = 10; //т.к по условию задачи двузначные числа
     for (int i = 0; i < arr.GetLength(0); i++)
     {
         for (int j = 0; j < arr.GetLength(1); j++)
