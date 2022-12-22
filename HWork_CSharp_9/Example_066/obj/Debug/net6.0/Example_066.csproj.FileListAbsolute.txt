@@ -1,0 +1,15 @@
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_9\Example_066\bin\Debug\net6.0\Example_066.exe
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_9\Example_066\bin\Debug\net6.0\Example_066.deps.json
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_9\Example_066\bin\Debug\net6.0\Example_066.runtimeconfig.json
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_9\Example_066\bin\Debug\net6.0\Example_066.dll
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_9\Example_066\bin\Debug\net6.0\Example_066.pdb
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_9\Example_066\obj\Debug\net6.0\Example_066.csproj.AssemblyReference.cache
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_9\Example_066\obj\Debug\net6.0\Example_066.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_9\Example_066\obj\Debug\net6.0\Example_066.AssemblyInfoInputs.cache
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_9\Example_066\obj\Debug\net6.0\Example_066.AssemblyInfo.cs
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_9\Example_066\obj\Debug\net6.0\Example_066.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_9\Example_066\obj\Debug\net6.0\Example_066.dll
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_9\Example_066\obj\Debug\net6.0\refint\Example_066.dll
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_9\Example_066\obj\Debug\net6.0\Example_066.pdb
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_9\Example_066\obj\Debug\net6.0\Example_066.genruntimeconfig.cache
+C:\Users\Александр\Documents\Лена работа\Учеба\ДЗ\ДЗ_CSharp\HWork_CSharp_9\Example_066\obj\Debug\net6.0\ref\Example_066.dll
