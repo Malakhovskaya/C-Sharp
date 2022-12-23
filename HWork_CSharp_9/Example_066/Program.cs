@@ -5,15 +5,19 @@ M = 1; N = 15 -> 120
 M = 4; N = 8. -> 30*/
 
 
-Console.Write("Введите начальное число: ");
-int n = int.Parse(Console.ReadLine());
+int m = InputInt("Введите положительное число M: ");
+int n = InputInt("Введите положительное число N: ");
 
-Console.Write("Введите конечное число: ");
-int m = int.Parse(Console.ReadLine());
+Console.WriteLine($"Сумма натуральных элементов между числами равняется = {SumNaturalNums(m, n)}");
 
-int SumNaturalNums(int n, int m)
+int InputInt(string output)
 {
-    if (n > m) return 0;
-    else return n + SumNaturalNums(n + 1, m);
+    Console.Write(output);
+    return int.Parse(Console.ReadLine());
 }
-Console.WriteLine($"Сумма натуральных элементов между числами равняется {SumNaturalNums(n + 1, m) + n} ");
+
+int SumNaturalNums(int m, int n)
+{
+    if (m > n) return 0;
+    else return m + SumNaturalNums(m + 1, n);
+}
